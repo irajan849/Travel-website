@@ -159,7 +159,7 @@
 
 
 <section class="Newsletter">
-    <div class="Newsletter-content">
+    <!-- <div class="Newsletter-content">
         <div class="Newsletter-text">
             <h2>Ready to Explore</h2>
             <p>Let's go on vacation,make your day</p>
@@ -168,7 +168,24 @@
             <input type="Email" placeholder="Enter Your Email id"
             required>
             <input type="submit" value="Get started" class="btn">
-        </form>
+        </form> -->
+    
+<form id="newsletterForm">
+  <input
+    type="email"
+    id="newsletterEmail"
+    placeholder="Enter Your Email id"
+    required
+  />
+
+  <input
+    type="submit"
+    value="Get started"
+    class="btn"
+  />
+
+  <p id="newsletterMessage"></p>
+</form>
 
     </div>
 </section>
@@ -212,6 +229,8 @@
 
 
 
- <script src="main.js"></script>
+<script src="main.js"></script>
+<script src="subscribe.js"></script>
+</body>
 </body>
 </html>
